@@ -3,7 +3,7 @@ from pyzbar.pyzbar import decode
 import numpy as np
 import requests
 
-IPQS_API_KEY = 'pQzygEVMvcoPW8R2uP4Hl3B70MMTU9HB'
+IPQS_API_KEY = 'abc'
 MALICIOUS_URLS_FILE = 'malicious_urls.txt'
 LEGIT_URLS_FILE = 'legit_urls.txt'
 SUSPICIOUS_URLS_FILE = 'suspicious_urls.txt'
