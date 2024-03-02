@@ -87,6 +87,7 @@ def scan_qr_code():
                     with open(LEGIT_URLS_FILE, 'a') as legit_file:
                         legit_file.write(data + '\n')
 
+                 # Actually draws the rectangle based on the number of points, closing the gap of the polylines, colour of the rectangle, and the thickness level of the recetangle
                 cv2.polylines(frame, [pts], isClosed=True, color=rectangle_color, thickness=2)
 
                 # Display the QR code data
