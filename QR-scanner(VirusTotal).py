@@ -12,7 +12,7 @@ LEGIT_URLS_FILE = 'legit_urls.txt'
 MALICIOUS_URLS_FILE = 'malicious_urls.txt'
 
 # Using VirusTotal API and URL
-VIRUSTOTAL_API_KEY = '499cdc7e26e065576569604857149f86e92653792abb76587f8bf07814f86858'  # VirusTotal API key
+VIRUSTOTAL_API_KEY = 'abc'  # VirusTotal API key
 VIRUSTOTAL_API_URL = 'https://www.virustotal.com/vtapi/v2/url/report'
 
 # Load openphish dataset
