@@ -1,4 +1,4 @@
-# QR-code-scanner detecting malicious QR code
+# QR-code-scanners detecting malicious QR code
 *Before using the QR code scanner, please download all of the files (confirmed_malicious_urls.txt, high_risk_url.txt, legit_urls.txt, malicious_urls.txt, phishing_url_openphish.txt, suspicious_urls.txt, QR_Scanner (IPQualityScore).py, and QR-scanner(VirusTotal).py) before using it. To execute them please locate them in the same folder then install the latest python version into your device to execute them.
 There are 2 QR code scanners, each using different API services which are IPQualityScore and VirusTotal to detect malicious URL.
 
