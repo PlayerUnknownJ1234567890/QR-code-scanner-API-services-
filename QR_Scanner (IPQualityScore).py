@@ -81,8 +81,7 @@ def scan_qr_code():
                     if risk_score >= 75 and risk_score < 90:
                         rectangle_color = (0, 165, 255)  # Orange for high-risk URLs
                         write_to_file(HIGH_RISK_URLS_FILE, data)
-                    if risk_score >= 90 or risk_score == 100 and ('phishing' in ipqs_result and ipqs_result['phishing'] == 'true') or \
-                            ('malware' in ipqs_result and ipqs_result['malware'] == 'true'):
+                    if risk_score >= 90 or risk_score == 100:
                         rectangle_color = (0, 0, 255)  # Red for confirmed malware or phishing activity
                         write_to_file(CONFIRMED_MALICIOUS_URLS_FILE, data)
 
