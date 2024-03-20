@@ -17,4 +17,4 @@ Create a VirusTotal account by going to this URL (https://www.virustotal.com/gui
 2) IPQualityScore
 Create a IPQualityScore account by going this URL (https://www.ipqualityscore.com/create-account) follow by verifying your email when completing the registration. Once your email address is verified, log in to your IPQualityScore account using the credentials you provided during sign-up. After logging in, navigate to the dashboard or API settings section of your account. This is typically where you can manage your API keys and settings. In the API settings section, you should find an option to generate a new API key. Click on this option, and a new API key will be generated for you. Once the API key is generated, it will typically be displayed on the screen. Copy the API key to your clipboard or save it in a secure location.   
 
-This project is just in the beginning phase, improvements will be made in the future.
+This project is just in the beginning phase, improvements will be made in the future such as adding user interface to allow users to interact with it propoerly through their mobile phone.
